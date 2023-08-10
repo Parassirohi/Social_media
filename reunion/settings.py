@@ -158,3 +158,5 @@ CORS_ALLOWED_ORIGINS = [
     "https://social-media-byxa.onrender.com",
     # Add other allowed origins if needed
 ]
+
+CSRF_TRUSTED_ORIGINS=['https://social-media-byxa.onrender.com']
