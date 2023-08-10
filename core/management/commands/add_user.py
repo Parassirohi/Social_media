@@ -9,7 +9,7 @@ class Command(BaseCommand):
             if User.objects.all():
                 pass
             else:
-                user = User.objects.create(first_name="admin",last_name="user"email="admin@domain.com",username ='admin@domain.com',is_staff=True,is_superuser=True)
+                user = User.objects.create(first_name="admin",last_name="user",email="admin@domain.com",username ='admin@domain.com',is_staff=True,is_superuser=True)
                 user.is_superuser=True
                 user.set_password('superuser')
                 user.save()
